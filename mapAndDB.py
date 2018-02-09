@@ -8,9 +8,16 @@ from rest.track import Track, TrackList
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'porignvbpaiyhrvb98975sfur8'
 api = Api(app)
+
+#comment this in heroku BEGIN
+#@app.before_first_request
+#def create_tables():
+#    db.create_all()
+#comment this in heroku END
 
 jwt = JWT(app, authenticate, identity)  # /auth
 

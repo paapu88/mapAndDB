@@ -1,4 +1,5 @@
 from db import db
+from flask import send_from_directory
 
 class TrackModel(db.Model):
     __tablename__ = 'tracks'
@@ -6,13 +7,18 @@ class TrackModel(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80))
     date = db.Column(db.String(80))
+    track = db.Column(db.String(10000))
 
-    def __init__(self, name, date):
+    def __init__(self, name, date, track):
         self.name = name
         self.date = date
+        self.track = track
 
     def json(self):
         return {'name': self.name, 'date': self.date}
+
+    def get_track(self):
+        return {'track':self.track}
 
     @classmethod
     def find_by_name(cls, name):
