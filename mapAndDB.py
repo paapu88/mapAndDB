@@ -7,9 +7,9 @@ from rest.user import UserRegister
 from rest.track import Track, TrackList
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///data.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///data.db'
+#app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'porignvbpaiyhrvb98975sfur8'
 api = Api(app)
 
