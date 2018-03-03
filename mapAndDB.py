@@ -9,6 +9,7 @@ from rest.track import Track, TrackList
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL','sqlite:///data.db')
+app.config['SQLALCHEMY_POOL_TIMEOUT'] = 5
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'porignvbpaiyhrvb98975sfur8'
 api = Api(app)
