@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+ <gpx creator="Pullautuskartta.fi" version="1.0" xmlns="http://www.topografix.com/GPX/1/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"> 
+    <trk>
+        <name>Pullautuskartta.fi-rata</name>
+        <trkseg>
+            <trkpt lat="60.17074005347235" lon="24.94149878446823">
+                <name>Point 0</name>
+            </trkpt>
+            <trkpt lat="60.16454421197891" lon="24.937345304959116">
+                <name>Point 1</name>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

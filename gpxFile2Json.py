@@ -3,9 +3,14 @@
 
 import sys, re
 from pprint import pprint
+<<<<<<< HEAD
 import datetime
 #from flask import jsonify, json
 
+=======
+from flask import jsonify, json
+import datetime
+>>>>>>> 68f79018276aaacd68cb2def810db56b8c74786f
 
 lines = [line.rstrip('\n').strip() for line in open(sys.argv[1])]
 
@@ -21,7 +26,14 @@ for line in lines:
         #print(lat2, lon2)
         oklines = oklines + lat1[0]+" " +lon1[0]+" "
 
+<<<<<<< HEAD
 mydate = datetime.datetime.today().strftime('%Y%m%d')
 myjson = "{"+'"date":"'+mydate+'", "track":'+'"'+ oklines[:-1]+'"}'
 print(myjson)
+=======
+today = datetime.datetime.today().strftime('%Y%m%d')
+
+myjson = "{"+"\"date\":\""+today+"\", \"track\":\""+ oklines[:-1]+'"}'
+print(myjson.replace("\'","\""))
+>>>>>>> 68f79018276aaacd68cb2def810db56b8c74786f
 
