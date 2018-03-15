@@ -1,0 +1,67 @@
+{
+	"info": {
+		"name": "map-and-db-HEROKU",
+		"_postman_id": "7caabaff-101e-53b4-d771-43949141a97a",
+		"description": "testing heroku database",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all tracks from heroku",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get one track from heroku",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/item/track-veeti",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"date\":\"20180211\",  \"track\": \"60.21342505639066 24.773137864839224 60.213926575849484 24.774796210396126 60.2109164082023 24.777326977521632 60.21086324606936 24.77415769827284 60.21215092167532 24.7724839078194\"}"
+				},
+				"url": {
+					"raw": "https://heroku-flask-db.herokuapp.com/track/track-veeti",
+					"protocol": "https",
+					"host": [
+						"heroku-flask-db",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"track",
+						"track-veeti"
+					]
+				},
+				"description": "Post one course"
+			},
+			"response": []
+		}
+	]
+}

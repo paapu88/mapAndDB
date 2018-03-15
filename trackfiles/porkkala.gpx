@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+ <gpx creator="Pullautuskartta.fi" version="1.0" xmlns="http://www.topografix.com/GPX/1/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"> 
+    <trk>
+        <name>Pullautuskartta.fi-rata</name>
+        <trkseg>
+            <trkpt lat="60.09132904687199" lon="24.602075067319067">
+                <name>Point 0</name>
+            </trkpt>
+            <trkpt lat="60.084119296270494" lon="24.621089987581513">
+                <name>Point 1</name>
+            </trkpt>
+            <trkpt lat="60.0631789341632" lon="24.623019421955217">
+                <name>Point 2</name>
+            </trkpt>
+            <trkpt lat="60.0558803463177" lon="24.60359543978806">
+                <name>Point 3</name>
+            </trkpt>
+            <trkpt lat="60.04494753357676" lon="24.589970475587975">
+                <name>Point 4</name>
+            </trkpt>
+            <trkpt lat="60.02270936361854" lon="24.535798709315234">
+                <name>Point 5</name>
+            </trkpt>
+            <trkpt lat="59.996951252082546" lon="24.51375539707515">
+                <name>Point 6</name>
+            </trkpt>
+            <trkpt lat="59.981402248422995" lon="24.451950298852445">
+                <name>Point 7</name>
+            </trkpt>
+            <trkpt lat="59.9724050424764" lon="24.415624482274893">
+                <name>Point 8</name>
+            </trkpt>
+            <trkpt lat="59.96576138494359" lon="24.39099621179578">
+                <name>Point 9</name>
+            </trkpt>
+            <trkpt lat="59.9771849035873" lon="24.388364001066737">
+                <name>Point 10</name>
+            </trkpt>
+            <trkpt lat="60.00351688533801" lon="24.422446295971092">
+                <name>Point 11</name>
+            </trkpt>
+            <trkpt lat="60.042934358998025" lon="24.47925333166053">
+                <name>Point 12</name>
+            </trkpt>
+            <trkpt lat="60.047599160418386" lon="24.500368668773245">
+                <name>Point 13</name>
+            </trkpt>
+            <trkpt lat="60.04253309535548" lon="24.52485021457302">
+                <name>Point 14</name>
+            </trkpt>
+            <trkpt lat="60.04221460546879" lon="24.547288378925064">
+                <name>Point 15</name>
+            </trkpt>
+            <trkpt lat="60.06919880045334" lon="24.600786020097594">
+                <name>Point 16</name>
+            </trkpt>
+            <trkpt lat="60.09010465187036" lon="24.604218991822997">
+                <name>Point 17</name>
+            </trkpt>
+            <trkpt lat="60.09106268963386" lon="24.521948123512203">
+                <name>Point 18</name>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+ <gpx creator="Pullautuskartta.fi" version="1.0" xmlns="http://www.topografix.com/GPX/1/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"> 
+    <trk>
+        <name>Pullautuskartta.fi-rata</name>
+        <trkseg>
+            <trkpt lat="60.149550279193875" lon="24.75560806319329">
+                <name>Point 0</name>
+            </trkpt>
+            <trkpt lat="60.14931547128022" lon="24.80439491132073">
+                <name>Point 1</name>
+            </trkpt>
+            <trkpt lat="60.15198472458916" lon="24.819419235886798">
+                <name>Point 2</name>
+            </trkpt>
+            <trkpt lat="60.152194190084955" lon="24.83861947675856">
+                <name>Point 3</name>
+            </trkpt>
+            <trkpt lat="60.14743070817223" lon="24.8499100577668">
+                <name>Point 4</name>
+            </trkpt>
+            <trkpt lat="60.13103262171181" lon="24.897190511471724">
+                <name>Point 5</name>
+            </trkpt>
+            <trkpt lat="60.12797582699717" lon="24.8640499193377">
+                <name>Point 6</name>
+            </trkpt>
+            <trkpt lat="60.13046472630084" lon="24.835825111157835">
+                <name>Point 7</name>
+            </trkpt>
+            <trkpt lat="60.132792361054506" lon="24.8173134629918">
+                <name>Point 8</name>
+            </trkpt>
+            <trkpt lat="60.12878151068023" lon="24.772425934717894">
+                <name>Point 9</name>
+            </trkpt>
+            <trkpt lat="60.137421055774404" lon="24.77289688966289">
+                <name>Point 10</name>
+            </trkpt>
+            <trkpt lat="60.14464429205473" lon="24.758053503576615">
+                <name>Point 11</name>
+            </trkpt>
+            <trkpt lat="60.148001720060314" lon="24.757402617572478">
+                <name>Point 12</name>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>
