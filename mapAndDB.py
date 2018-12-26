@@ -7,11 +7,16 @@ from security import authenticate, identity
 from rest.user import UserRegister
 from rest.track import Track, TrackList
 
+from flask_cors import CORS, cross_origin
+
 app = Flask(__name__)
+cors = CORS(app)
+
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL','sqlite:///data.db')
 app.config['SQLALCHEMY_POOL_TIMEOUT'] = 5
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'porignvbpaiyhrvb98975sfur8'
+app.config['CORS_HEADERS'] = 'Content-Type'
 api = Api(app)
 
 #comment this in heroku BEGIN
